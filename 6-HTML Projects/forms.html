@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Project</title>
+    </head>
+
+    <body>
+        
+        <!-- Form 1 -->
+        <h2>Form 1: Event Registration</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name">
+            <br><br>
+
+            <label for="emailID">Email ID:</label><br>
+            <input type="email" id="emailID" name="emailID">
+            <br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label for="occupation">Occupation:</label><br>
+            <select name="occupation" id="occupation">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+
+            <fieldset>
+                <legend>Topics of Interest:</legend>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="checkbox" id="html">
+
+                <label for="css">CSS</label>
+                <input type="checkbox" name="checkbox" id="css">
+
+                <label for="js">JavaScript</label>
+                <input type="checkbox" name="checkbox" id="js">
+            </fieldset>
+            <br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            <br><br>
+
+            <button>Register</button>
+        </form>
+        <br>
+
+        <!-- Form 2 -->
+        <h2>Form 2: Job Application</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="email">Email ID:</label><br>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" name="phone" id="phone"><br><br>
+
+            <label for="resume">Resume:</label><br>
+            <input type="file" name="resume" id="resume"><br><br>
+
+            <label for="exp">Experience(years):</label><br>
+            <input type="number" name="exp" id="exp" min="0" max="50"><br><br>
+
+            <fieldset>
+                <legend>Skills:</legend>
+                <input type="checkbox" name="checkbox" id="html"><br>
+                <label for="html">HTML</label><br><br>
+
+                <input type="checkbox" name="checkbox" id="css"><br>
+                <label for="css">CSS</label><br><br>
+
+                <input type="checkbox" name="checkbox" id="js"><br>
+                <label for="js">JavaScript</label>
+            </fieldset><br>
+
+            <label for="edu">Highest Education:</label><br>
+            <select name="edu" id="edu">
+                <option value="highSchool">High School</option>
+                <option value="seniorSchool">Senior Secondary School</option>
+                <option value="graduate">Graduate</option>
+                <option value="masters">Masters</option>
+                <option value="phd">PhD</option>
+            </select><br><br>
+            
+            <fieldset>
+                <legend>Availability:</legend>
+                <input type="radio" name="availability" id="full"><br>
+                <label for="full">Full-time</label><br>
+            
+                <input type="radio" name="availability" id="part"><br>
+                <label for="part">Part-time</label>
+            </fieldset><br>
+            
+
+            <label for="comments">Additional Comments:</label><br>
+            <textarea name="comments" id="comments" cols="50" rows="10"></textarea><br>
+
+            <input type="submit" value="Submit Application">
+        </form><br>
+
+        <!-- Form 3 -->
+        <h2>Form 3: Complex Form</h2>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone"><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"><br><br>
+
+            <span>Gender:</span>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="us">US</option>
+                <option value="uk">UK</option>
+                <option value="uae">UAE</option>
+            </select>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street:</label>
+            <input type="text" name="street" id="street"><br><br>
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city"><br><br>
+
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state"><br><br>
+
+            <label for="zip">Zip Code:</label>
+            <input type="text" name="zip" id="zip">
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+            <br>
+            <label for="agree">I agree to the terms of service:</label>
+            <input type="checkbox" name="agree" id="agree">
+        </fieldset><br>
+
+        <input type="submit" value="Submit">
+    </body>
+</html>

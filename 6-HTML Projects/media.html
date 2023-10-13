@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Media HTML</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#audioSection">Audio Section</a></li>
+                <li><a href="#videoSection">Video Section</a></li>
+                <li><a href="#embedSection">Embed Section</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="audioSection">
+                <h2>Audio Section</h2>
+                <audio src="audio.mp3" controls></audio>
+            </section>
+
+            <section id="videoSection">
+                <h2>Video Section</h2>
+                <video src="video.mp4" controls height="250"></video>
+            </section>
+
+            <section id="embedSection">
+                <h2>Embed Section</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <iframe src="https://www.youtube.com/embed/JCyLKE5yTsk" width="500" height="250"></iframe>
+                        </td>
+                        <td>
+                            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" width="500" height="250"></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <iframe src="index.html" width="1000" height="400"></iframe>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&#169; 2023 Aanif</p>
+        </footer>
+    </body>
+</html>
